@@ -94,7 +94,8 @@ export const calculateLogView = function (props) {
  */
 export const calculateLogUrl = (config) => {
     let returnUrl = config.url;
-    if (config.node) {
+    console.log('urlUtils')
+    if (config.node && config.node.id) {
         const { nodesBaseUrl, node } = config;
         returnUrl = `${nodesBaseUrl}/${node.id}/log/`;
     }

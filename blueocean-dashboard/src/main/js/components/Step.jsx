@@ -35,6 +35,7 @@ export default class Node extends Component {
         const fetchAll = node.fetchAll;
         const mergedConfig = { ...config, node, nodesBaseUrl, fetchAll };
         if (logs && logs !== this.props.logs || fetchAll) {
+            console.log('step will recieve')
             const key = calculateLogUrl(mergedConfig);
             const log = logs ? logs[key] : null;
             if (log && log !== null) {
@@ -70,6 +71,7 @@ export default class Node extends Component {
     expandAnchor(props) {
         const { node, location: { hash: anchorName } } = props;
         const isFocused = this.state ? this.state.isFocused : node.isFocused;
+        console.log('expandAnchor')
         const fetchAll = calculateFetchAll(props);
         const general = { ...node, fetchAll };
         // e.g. #step-10-log-1 or #step-10
