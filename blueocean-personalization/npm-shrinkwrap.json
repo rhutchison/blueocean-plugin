@@ -3,9 +3,9 @@
   "version": "0.0.2-unpublished",
   "dependencies": {
     "@jenkins-cd/blueocean-core-js": {
-      "version": "0.0.52",
-      "from": "@jenkins-cd/blueocean-core-js@0.0.52",
-      "resolved": "https://registry.npmjs.org/@jenkins-cd/blueocean-core-js/-/blueocean-core-js-0.0.52.tgz",
+      "version": "0.0.53-tfbeta1",
+      "from": "@jenkins-cd/blueocean-core-js@0.0.53-tfbeta1",
+      "resolved": "https://registry.npmjs.org/@jenkins-cd/blueocean-core-js/-/blueocean-core-js-0.0.53-tfbeta1.tgz",
       "dependencies": {
         "react-router": {
           "version": "3.0.0",
@@ -52,9 +52,9 @@
       "resolved": "https://registry.npmjs.org/@jenkins-cd/react-material-icons/-/react-material-icons-1.0.0.tgz"
     },
     "@jenkins-cd/sse-gateway": {
-      "version": "0.0.15",
-      "from": "@jenkins-cd/sse-gateway@0.0.15",
-      "resolved": "https://registry.npmjs.org/@jenkins-cd/sse-gateway/-/sse-gateway-0.0.15.tgz"
+      "version": "0.0.16-tfbeta1",
+      "from": "@jenkins-cd/sse-gateway@0.0.16-tfbeta1",
+      "resolved": "https://registry.npmjs.org/@jenkins-cd/sse-gateway/-/sse-gateway-0.0.16-tfbeta1.tgz"
     },
     "@jenkins-cd/storage": {
       "version": "0.0.6",
